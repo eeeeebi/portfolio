@@ -1,6 +1,6 @@
 html {
-    background: #e6e9e9;
-    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+    background: black;
+    
     -webkit-font-smoothing: antialiased;
 }
 
@@ -9,37 +9,42 @@ body {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #868686;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 1.6em;
     
     line-height: 1;
     margin: auto ;
     max-width: 1200px;
-    padding: 4em 4em 4em;
+    padding: 4em em;
 }
 
 h3 {
     color: #ffff;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: 40;
     line-height: ;
-    margin-top: 3em;
+    float: left;
+    margin-top: 3rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem
 }
 h2 {color: #868686;
     font-weight: 330;
-    font-size: 14px;
+    font-size: 10px;
+    font-size: 1.5vw;
     text-align :center;
     line-height: 0.7;
     margin-top: 1em;
     margin-bottom: em;
 }
 
-h4 {color: #ffff;
+h4 {color: #868686;
     font-weight: 330;
-    font-size: 14px;
-    text-align :left;
+    font-size: 1.5vw;
+    text-align :middle;
     line-height: 0.7;
-    margin-top: 20em;
+    margin-top: 0em;
     margin-bottom: 0.1em;
+    margin-left: 1em;
 }
 h5 {color: #868686;
     font-weight: 330;
@@ -82,7 +87,8 @@ video{
     margin-bottom: 1em;
     margin-left: 0.1em;
     max-width: 95%;
-    
+    max-width: 100%;
+
 }
 
 @keyframes colorize {
