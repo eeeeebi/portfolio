@@ -34,6 +34,12 @@ h2, h3{
 h2 {
     margin-top: em;
 }
+h4{
+    color: #ffff;
+     font-size: 13px;
+    font-weight: ;
+    line-height: 0;
+}
 
 h5{
     color: #ffff;
@@ -42,11 +48,11 @@ h5{
     line-height: 1;
     margin-top: 1em;
     padding: 0.1em 2em 0em;
-} 
+}
 
 a {
     color: #ffff;
-    
+
 }
 
 b, strong {
@@ -68,7 +74,7 @@ img {
 }
 
 video{margin-right: 4em;
-    
+
 }
 
 @keyframes colorize {
